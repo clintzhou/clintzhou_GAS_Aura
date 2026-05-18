@@ -13,5 +13,7 @@ UCLASS()
 class AURA_API AAuraCharacter : public AAureCharacterBase
 {
 	GENERATED_BODY()
+public:
+	AAuraCharacter();
 	
 };
