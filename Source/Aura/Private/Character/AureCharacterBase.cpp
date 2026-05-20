@@ -15,6 +15,11 @@ AAureCharacterBase::AAureCharacterBase()
 	
 }
 
+UAbilitySystemComponent* AAureCharacterBase::GetAbilitySystemComponent() const
+{
+	return AbilitySystemComponent;
+}
+
 void AAureCharacterBase::BeginPlay()
 {
 	Super::BeginPlay();
