@@ -26,4 +26,8 @@ void AAureCharacterBase::BeginPlay()
 	 
 }
 
+void AAureCharacterBase::InitAbilityActorInfo()
+{
+}
+
 
