@@ -18,6 +18,8 @@ Build
 # Rider
 .idea/
 Plugins/Developer/RiderLink/
+# Per-user IDE state, not project configuration
+*.DotSettings.user
 
 # UE upgrade/build artifacts
 UpgradeLog.htm
